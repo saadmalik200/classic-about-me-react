@@ -20,3 +20,110 @@
 .App-link {
   color: #09d3ac;
 }
+
+.header-container {
+  background-color: #95b3d7;
+  /* height: 3rem; */
+  padding: 01rem;
+  height: 120px;
+  margin-bottom: 0.5rem;
+}
+
+.header-container ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  gap: 1rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.ancDiv a {
+  display: block;
+}
+
+.me-container {
+  display: flex;
+  padding: 4rem;
+  background-color: #95b3d7;
+  height: 54.5rem;
+  gap: 4rem;
+}
+
+.me-container img {
+  height: 200px;
+}
+.me-container h2 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+.me-container div p {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.img-container {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.hobbies-container {
+  /* display: flex; */
+  padding: 4rem;
+  background-color: #95b3d7;
+  height: 54.5rem;
+  gap: 4rem;
+}
+
+.hobbies-container img {
+  height: 200px;
+  width: 200px;
+}
+
+.contact-container {
+  padding: 4rem;
+  background-color: #95b3d7;
+  height: 54.5rem;
+  overflow: hidden;
+  /* height: 100%; */
+  gap: 4rem;
+}
+
+.contactDiv {
+  display: flex;
+  gap: 15rem;
+  /* margin-top: 5rem; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* height: 100%; */
+}
+
+.formContact {
+  margin-top: 5rem;
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+input,
+button,
+textarea {
+  /* display: block; */
+  width: 20rem;
+  margin: 0.5rem 0;
+  padding: 1rem 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input,
+textarea {
+  background: rgb(217, 214, 214);
+  border: 1px solid black;
+}
+
+button {
+  background-color: rgb(158, 154, 154);
+}
