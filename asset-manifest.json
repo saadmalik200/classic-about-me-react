@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/classic-about-me-react/static/css/main.6ced916b.css",
+    "main.js": "/classic-about-me-react/static/js/main.96a45f31.js",
+    "index.html": "/classic-about-me-react/index.html",
+    "main.6ced916b.css.map": "/classic-about-me-react/static/css/main.6ced916b.css.map",
+    "main.96a45f31.js.map": "/classic-about-me-react/static/js/main.96a45f31.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ced916b.css",
+    "static/js/main.96a45f31.js"
+  ]
+}
