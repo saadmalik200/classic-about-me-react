@@ -1,5 +1,6 @@
 {
-  "name": "spa_router1",
+  "name": "classic-about-me",
+  "homepage": "https://saadmalik200.github.io/classic-about-me-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +10,9 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "deploy2": "gh-pages -d build -o codecommit",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -28,5 +32,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "gh-pages": "^4.0.0",
+    "tailwindcss": "^3.1.8"
   }
 }
